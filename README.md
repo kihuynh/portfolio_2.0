@@ -1,13 +1,13 @@
 # Personal Portfolio
 #### Ruby on Rails, 4-27-2018
 ## Description
-Creating a personal portfolio using ruby/rails. A portfolio displaying the web applications that I have created during my time in Epicodus. 
+Creating a personal portfolio using ruby/rails. A portfolio displaying the web applications that I have created during my time in Epicodus. It will also have some personality to show who I am as a person.
 
 ## Setup/Installation
 
 To clone onto your local machine, run the following in the terminal
 ```
- $ git clone https://github.com/kihuynh/foodproducts
+ $ git clone https://github.com/kihuynh/portfolio_2.0
 ```
 go into the project folder
 ```
@@ -25,15 +25,29 @@ Run the rails server
 $ rails s
 `
 ## Current features
-- Testing
-- CRUD functionality for products
-- CRUD functionality for reviews
-- Flash messages
-- Use Faker gem to seed 50 products and 5 reviews for each product
-- List US only items, recent items, and most reviewed products
+
 
 ## Future features
-- styling
+- Adding an Admin who has access to certain parts of webpage (have access to the whole site)
+- Users can sign up and sign in
+- Users will have access to blog area to comment? (Might not happen)
+-
+
+## Personal Strengths
+- Forever internally crying
+- Design background that I failed in
+- Adaptable to different backgrounds. Tenacious to challenges
+- Can take a good situation to something negative
+- Team oriented
+- Lots of patiences
+-
+
+## Interests
+- Loves scruffy dogs
+- Enjoys boba
+- Contemplating life
+- Trying to find something to watch on Netflix but have difficulty in doing so
+-
 
 ## Technologies Used
 - Ruby On Rails
