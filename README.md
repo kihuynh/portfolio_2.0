@@ -1,7 +1,7 @@
 # Personal Portfolio
 #### Ruby on Rails, 4-27-2018
 ## Description
-Creating a personal portfolio using ruby/rails. A portfolio displaying the web applications that I have created during my time in Epicodus. It will also have some personality to show who I am as a person.
+Creating a personal portfolio using ruby/rails. A portfolio displaying the web applications that I have created during my time in Epicodus. It add some color to who I am as a person outside of programming. Because no one wants a boring programmer.
 
 ## Setup/Installation
 
@@ -15,22 +15,22 @@ $ rake db:create
 $ rake db:migrate db:test:prepare
 $ bundle install
 ```
-Use if you want to use Faker DB instead <br>
-```
-$ rake db:seed
-```
 
-Run the rails server
-`
+
+Run the rails server <br>
+```
 $ rails s
-`
+```
+then go to localhost:3000 in your browser
 ## Current features
 
 
 ## Future features
 - Adding an Admin who has access to certain parts of webpage (have access to the whole site)
+- About section(small blurb on who you are and some interesting things)
+- Make contact section seperate or within the about
 - Users can sign up and sign in
-- Users will have access to blog area to comment? (Might not happen)
+- Users will have access to blog area to comment? (Further Explore)
 -
 
 ## Personal Strengths
@@ -40,14 +40,12 @@ $ rails s
 - Can take a good situation to something negative
 - Team oriented
 - Lots of patiences
--
 
 ## Interests
 - Loves scruffy dogs
 - Enjoys boba
-- Contemplating life
+- Always contemplating life decisions
 - Trying to find something to watch on Netflix but have difficulty in doing so
--
 
 ## Technologies Used
 - Ruby On Rails
