@@ -1,24 +1,48 @@
-# README
+# Personal Portfolio
+#### Ruby on Rails, 4-27-2018
+## Description
+Creating a personal portfolio using ruby/rails. A portfolio displaying the web applications that I have created during my time in Epicodus. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup/Installation
 
-Things you may want to cover:
+To clone onto your local machine, run the following in the terminal
+```
+ $ git clone https://github.com/kihuynh/foodproducts
+```
+go into the project folder
+```
+$ rake db:create
+$ rake db:migrate db:test:prepare
+$ bundle install
+```
+Use if you want to use Faker DB instead <br>
+```
+$ rake db:seed
+```
 
-* Ruby version
+Run the rails server
+`
+$ rails s
+`
+## Current features
+- Testing
+- CRUD functionality for products
+- CRUD functionality for reviews
+- Flash messages
+- Use Faker gem to seed 50 products and 5 reviews for each product
+- List US only items, recent items, and most reviewed products
 
-* System dependencies
+## Future features
+- styling
 
-* Configuration
+## Technologies Used
+- Ruby On Rails
+- Gems (Bootstrap, Faker, Sass, etc)
+- Testing (rspec, shoulda-matchers, etc)
+- Postgres
 
-* Database creation
+## License
 
-* Database initialization
+*Licensed under MIT license*
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Copyright (c) 2018 **_Kimberly Huynh_**
