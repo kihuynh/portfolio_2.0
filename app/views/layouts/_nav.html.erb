@@ -1,0 +1,8 @@
+<h3><%= link_to "Temporary", main_index_url %></h3>
+<% if current_user %>
+  <%= current_user.email %> | <%= link_to "Sign out", '/signout' %>
+<% else %>
+  <%= link_to "Sign up", 'signup' %> | <%= link_to "Sign in", '/signin' %>
+<% end %>
+<p><%= link_to "About", about_index_url %></p>
+<p><%= link_to "Contact", contact_index_url %></p>
